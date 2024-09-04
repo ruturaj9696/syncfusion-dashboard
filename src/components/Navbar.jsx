@@ -7,7 +7,12 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import avatar from '../data/avatar.jpg';
-import { Cart, Chat, Notification, UserProfile } from '.';
+
+import Cart from "../components/Cart"
+import Chat from "../components/Chat"
+import Notification from "../components/Notification"
+import UserProfile from "../components/UserProfile"
+
 import { useStateContext } from '../contexts/ContextProvider';
 
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
